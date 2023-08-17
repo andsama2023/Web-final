@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+.body5 {
+  background: url(images/psicologia.jpg);
+  image-resolution: from-image 300dpi;
+   background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: relative;
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  height: 130vh;;
+}
+
+.body2 {
+  background: url(images/psicologia2.jpg);
+  image-resolution: from-image 300dpi;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: relative;
+  height: 100vh;;
+}
+
+.body3 {
+  background: url(images/psico3.jpg);
+  image-resolution: from-image 300dpi;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+.body4 {
+  background: url(images/sonrie.webp);
+  image-resolution: from-image 300dpi;
+   background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 120vh;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #f5f8fb;
+}
+
+#login-box {
+  position: relative;
+  width: 65%;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 15px;
+  background: #00000080;
+  padding: 20px 50px;
+}
+
+#login-box p {
+  position: relative;
+  top: 10px;
+}
+
+#login-box button {
+  border: 0;
+  font-size: 20px;
+  color: white;
+  background-image: linear-gradient(
+    to right,
+    rgb(115, 133, 150) 0%,
+    rgb(43, 86, 136) 100%
+  );
+}
+
+/* estilos inicio footer, nav, slider, video*/
+
+.slider {
+  margin-top: 90px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("images/izquierda.com.png");
+}
+
+.carousel-control-next-icon {
+  background-image: url("images/derecha.com.png");
+}
+
+.carousel-indicators li {
+  color: transparent;
+}
+
+.carousel-indicators li {
+  background-color: black;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.carousel-indicators .active {
+  background-color: black;
+  width: 10px;
+  height: 10px;
+  margin: 5px;
+}
+
+.bg-black {
+  background-color: #000;
+  border-radius: 50%;
+}
+
+.navbar {
+  background-color: #345995;
+}
+
+.navbar-toggler {
+  border: solid;
+}
+
+.offcanvas {
+  background-color: #345995;
+}
+
+.offcanvas-title {
+  color: #fff;
+}
+
+#offcanvasDarkNavbarLabel {
+  background-color: #345995;
+}
+
+.offcanvas-body {
+  background-color: #345995;
+}
+
+.col-md-4 ul li {
+  margin-bottom: 10px;
+}
+
+.carousel-image {
+  max-height: 400px;
+  width: auto;
+  margin: 0 auto;
+}
+
+.video {
+  position: relative;
+  padding-bottom: 40%;
+  height: 0;
+  overflow: hidden;
+}
+
+.video iframe,
+.video object,
+.video embed {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 72%;
+}
+
+footer {
+  font-family: "Roboto", sans-serif;
+  padding: 20px 0;
+  color: #fff;
+  background-color: #345995;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.objetivos {
+  margin-bottom: 10px;
+}
+
+.btn-form {
+  margin-top: 20px;
+}
+
+p {
+  justify-content: right;
+  font-family: "Roboto", sans-serif;
+}
+
+ul li {
+  justify-content: right;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.icon2 {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* estilos pagina informacion */
+.information {
+  margin-top: 75px;
+}
+
+.foot-page {
+  margin-top: 108px;
+  padding-top: 50px;
+  margin-bottom: 0;
+}
